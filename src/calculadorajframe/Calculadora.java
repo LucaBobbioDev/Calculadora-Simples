@@ -14,6 +14,7 @@ public class Calculadora extends javax.swing.JFrame {
     float v2;
     float resultado;
     
+    //Função para executar a soma dos valores digitados
     public float Soma(){
         v1 = Float.parseFloat(jTextField1.getText());
         v2 = Float.parseFloat(jTextField2.getText());
@@ -21,12 +22,15 @@ public class Calculadora extends javax.swing.JFrame {
         return resultado;
     }
     
+    //Função para executar a subtração dos valores digitados
     public float Subtrair(){
         v1 = Float.parseFloat(jTextField1.getText());
         v2 = Float.parseFloat(jTextField2.getText());
         resultado = v1 - v2;
         return resultado;
     }
+    
+    //Função para executar a multiplicação dos valores digitados
     public float Multiplicar(){
         v1 = Float.parseFloat(jTextField1.getText());
         v2 = Float.parseFloat(jTextField2.getText());
@@ -34,6 +38,7 @@ public class Calculadora extends javax.swing.JFrame {
         return resultado;
     }
     
+    //Função para executar a divisão dos valores digitados
     public float Dividir(){
         v1 = Float.parseFloat(jTextField1.getText());
         v2 = Float.parseFloat(jTextField2.getText());
