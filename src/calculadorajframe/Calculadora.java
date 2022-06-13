@@ -6,8 +6,8 @@
 package calculadorajframe;
 
 /**
- *
- * @author Aluno02
+ * Calculadora simples
+ * @author Luca Bobbio
  */
 public class Calculadora extends javax.swing.JFrame {
     float v1;
